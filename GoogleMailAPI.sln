@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMailAPI", "GoogleMailAPI\GoogleMailAPI.csproj", "{9407C757-A09B-43D0-AF7F-511071096610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMailAPI.Tests", "GoogleMailAPI.Tests\GoogleMailAPI.Tests.csproj", "{9825E735-874C-4266-805B-3A8A967DDC6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9407C757-A09B-43D0-AF7F-511071096610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9407C757-A09B-43D0-AF7F-511071096610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9407C757-A09B-43D0-AF7F-511071096610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9407C757-A09B-43D0-AF7F-511071096610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9825E735-874C-4266-805B-3A8A967DDC6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9825E735-874C-4266-805B-3A8A967DDC6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9825E735-874C-4266-805B-3A8A967DDC6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9825E735-874C-4266-805B-3A8A967DDC6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52604043-28E1-48A3-9FB8-EB98B498F474}
+	EndGlobalSection
+EndGlobal

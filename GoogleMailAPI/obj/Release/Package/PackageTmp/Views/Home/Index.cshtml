@@ -1,0 +1,44 @@
+﻿@model GoogleMailAPI.Models.VMailContentModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <form method="post" action="@Url.Action("Index", "Home")">
+        <div class="row">
+            <div class="col-md-3">
+                <span>Mail To: </span>
+            </div>
+            <div class="col-md-6">
+                @Html.TextBoxFor(m => m.MailTo)
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <span>Subject : </span>
+            </div>
+            <div class="col-md-6">
+                @Html.TextBoxFor(m => m.MailSubject)
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <span>Content : </span>
+            </div>
+            <div class="col-md-6">
+                @Html.TextAreaFor(o => o.MailBody, new { @class = "form-control" })
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+        <div class="col-md-12">
+            <input type="submit" value="Send Mail" />
+        </div>
+    </form>
+</div>
